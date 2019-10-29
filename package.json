@@ -23,5 +23,9 @@
   "devDependencies": {
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/guojikun_admin/web-tricks.git"
   }
 }

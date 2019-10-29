@@ -10,16 +10,16 @@
 
 
 #### 安装教程
-
-1.  yarn / yarn install
-2.  yarn run dev
-3.  yarn run build
+```
+git clone 
+```
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+yarn / yarn install //安装依赖项
+yarn run dev //运行项目
+yarn run build //打包项目
+```
 
 #### 参与贡献
 
