@@ -10,9 +10,9 @@ module.exports = {
 
     ],
     themeConfig: {
+        displayAllHeaders: true,
         sidebar: [
-            '/page-a',
-            ['/page-b', 'Explicit link text']
+            ['/grid', 'Grid'],
         ]
     }
 }
