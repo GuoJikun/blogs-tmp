@@ -35,7 +35,9 @@ module.exports = {
             },
             {
                 title: '其它',
-                children: [ /* ... */]
+                children: [
+                    ['/libs', '好用的库']
+                ]
             },
         ]
     }
