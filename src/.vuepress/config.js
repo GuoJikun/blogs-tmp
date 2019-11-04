@@ -17,26 +17,30 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
-                    ['/video', 'Video'],
+                    ['/pages/html/video', 'Video'],
                 ]
             },
             {
                 title: 'CSS',
                 children: [
-                    ['/grid', 'Grid'],
-                    ['/cursor', 'Cursor'],
+                    ['/pages/css/grid', 'Grid'],
+                    ['/pages/css/cursor', 'Cursor'],
+                    ['/pages/css/loading', 'Loading'],
+
+                    ['/pages/css/other', '其它'],
                 ]
             },
             {
                 title: 'JS',
                 children: [
-                    ['/intersectionObserver', 'IntersectionObserver']
+                    ['/pages/js/intersectionObserver', 'IntersectionObserver']
                 ]
             },
             {
                 title: '其它',
                 children: [
-                    ['/libs', '好用的库']
+                    ['/pages/other/libs', '好用的库'],
+                    ['/pages/other/article', '有用的文章'],
                 ]
             },
         ]
