@@ -10,6 +10,7 @@ module.exports = {
 
     ],
     themeConfig: {
+        smoothScroll: true,
         displayAllHeaders: true,
         sidebar: [
             {
