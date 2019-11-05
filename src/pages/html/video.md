@@ -1,6 +1,6 @@
 <template>
     <div class="box">
-        <video controls width="600" ref="videos" @canplaythrough="getduration">
+        <video controls width="600" ref="videos" @canplaythrough="getduration" @timeupdate="getProgress">
             <source src="/video/flower.webm" type="video/webm">
             <source src="/video/flower.mp4" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
@@ -70,9 +70,12 @@
                 }
                 
                 console.log(this.$refs.videos.volume)
+            },
+            getProgress(ev){
+                console.log(ev.target.currentTime)
+                this.progress = ev.target.currentTime
             }
-        }
-
+        },
     }
 </script>
 

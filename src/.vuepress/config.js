@@ -1,4 +1,6 @@
 const plugins = require('./plugins.js')
+const webpackConfig = require('./webpack.config.js')
+
 module.exports = {
     title: 'web tricks',
     extraWatchFiles: [
@@ -45,5 +47,6 @@ module.exports = {
                 ]
             },
         ]
-    }
+    },
+    configureWebpack: webpackConfig
 }
