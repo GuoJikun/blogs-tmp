@@ -11,7 +11,7 @@ export default {
         return {
             clientId: "f510b99ce0977fa9d1b1",
             clientSecret: "7fe1d570c1346f8067bd48c819cd0b308b7f4469",
-            id: `git-talk-${new Date().getTime().toString()}`
+            id: `git-talk-${this._uid}`
         };
     },
     mounted() {
