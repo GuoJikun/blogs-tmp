@@ -23,7 +23,9 @@
             </div>
         </div>
     </div>
-
+    <div>
+        <vue-gittalk></vue-gittalk>
+    </div>
 </template>
 
 <script>
