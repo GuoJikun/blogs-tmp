@@ -1,4 +1,3 @@
-
 <template>
     <div class="grid">
         <div class="grid-item grid-item-1">1</div>
@@ -44,6 +43,10 @@
     box-sizing: border-box;
 }
 ```
+
+<div>
+    <vue-gittalk></vue-gittalk>
+</div>
 
 <script>
 export default {

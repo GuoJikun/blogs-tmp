@@ -98,6 +98,10 @@
     </div>
 </div>
 
+<div>
+    <vue-gittalk></vue-gittalk>
+</div>
+
 <style scoped lang="scss">
 .loading{
     &-item{
