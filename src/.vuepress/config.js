@@ -2,6 +2,7 @@ const plugins = require('./plugins.js')
 const webpackConfig = require('./webpack.config.js')
 
 module.exports = {
+    base: '/web-tricks/',
     title: 'web tricks',
     extraWatchFiles: [
         './plugins.js', // 使用相对路径
