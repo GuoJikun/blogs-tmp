@@ -15,7 +15,6 @@ export default {
         };
     },
     mounted() {
-        console.log(this.id, "id", this.$route.name);
         this.createGitTalk();
     },
     methods: {
