@@ -75,6 +75,9 @@ p.not-select {
 }
 ```
 
+<div>
+    <vue-gittalk></vue-gittalk>
+</div>
 <style scoped lang="scss">
 .scroll-custom{
     height: 100px;
