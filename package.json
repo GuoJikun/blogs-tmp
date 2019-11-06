@@ -23,6 +23,7 @@
     "vuepress-plugin-container": "^2.1.0"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0"
   },
