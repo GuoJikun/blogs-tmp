@@ -49,6 +49,7 @@ module.exports = {
                 children: [
                     ['/pages/other/libs', '好用的库'],
                     ['/pages/other/article', '有用的文章'],
+                    ['/pages/other/webgl', 'Webgl'],
                 ]
             },
         ]
