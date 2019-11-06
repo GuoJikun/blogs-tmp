@@ -15,6 +15,10 @@ module.exports = {
     themeConfig: {
         smoothScroll: true,
         displayAllHeaders: true,
+        nav: [
+
+            { text: '码云(Gitee)', link: 'https://gitee.com/guojikun_admin/web-tricks.git' },
+        ],
         sidebar: [
             {
                 title: 'HTML',   // 必要的
