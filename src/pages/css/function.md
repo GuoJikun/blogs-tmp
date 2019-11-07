@@ -62,6 +62,10 @@ p.var {
 | var()  | 用于插入自定义的属性值。                    | 3        |
 | calc() | 允许计算 CSS 的属性值，比如动态计算长度值。 | 3        |
 
+<div>
+    <vue-gittalk></vue-gittalk>
+</div>
+
 <style>
 :root{
     --font-color-red: red;
