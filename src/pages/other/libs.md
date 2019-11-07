@@ -55,8 +55,9 @@
                                 url: "http://momentjs.cn/"
                             },
                             {
-                                name: "Ant Design(vue)",
-                                url: "https://www.antdv.com/docs/vue/getting-started-cn/"
+                                name: "v-click-outside-x",
+                                dec: 'vue指令-在某元素外点击',
+                                url: "https://github.com/Xotic750/v-click-outside-x"
                             }
                         ]
                     }

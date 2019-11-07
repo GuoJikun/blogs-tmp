@@ -33,6 +33,7 @@ module.exports = {
                 children: [
                     ['/pages/css/grid', 'Grid'],
                     ['/pages/css/cursor', 'Cursor'],
+                    ['/pages/css/filter', 'Filter滤镜'],
                     ['/pages/css/loading', 'Loading'],
 
                     ['/pages/css/other', '其它'],
