@@ -9,5 +9,4 @@ export default ({
     siteData // 站点元数据
 }) => {
     Vue.use(ElementUI, { size: 'small' });
-    console.log(siteData)
 };

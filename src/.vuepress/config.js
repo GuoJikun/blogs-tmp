@@ -43,7 +43,9 @@ module.exports = {
             {
                 title: 'JS',
                 children: [
-                    ['/pages/js/intersectionObserver', 'IntersectionObserver']
+                    ['/pages/js/bom', '浏览器对象 BOM'],
+                    ['/pages/js/intersectionObserver', 'IntersectionObserver'],
+                    ['/pages/js/cookie', 'Cookie']
                 ]
             },
             {
