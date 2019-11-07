@@ -21,13 +21,13 @@ img {
         <p class="filter-item-title">brightness(%)</p>
         <p class="filter-item-dec">给图片应用一种线性乘法，使其看起来更亮或更暗。如果值是0%，图像会全黑。值是100%，则图像无变化。其他的值对应线性乘数效果。值超过100%也是可以的，图像会比原来更亮。如果没有设定值，默认是1。</p>
         <img class="filter-item-img" :src="$withBase('/image/filter.jpg')" :style="{filter: `brightness(${value2}%)`}" />
-        <el-slider class="filter-item-slider" v-model="value2" show-input :max="500"></el-slider>
+        <el-slider class="filter-item-slider" v-model="value2" show-input :max="300"></el-slider>
     </div>
     <div class="filter-item">
         <p class="filter-item-title">contrast(%)</p>
         <p class="filter-item-dec">调整图像的对比度。值是0%的话，图像会全黑。值是100%，图像不变。值可以超过100%，意味着会运用更低的对比。若没有设置值，默认是1。</p>
         <img class="filter-item-img" :src="$withBase('/image/filter.jpg')" :style="{filter: `contrast(${value3}%)`}" />
-        <el-slider class="filter-item-slider" v-model="value3" show-input :max="500"></el-slider>
+        <el-slider class="filter-item-slider" v-model="value3" show-input :max="300"></el-slider>
     </div>
     <div class="filter-item">
         <p class="filter-item-title">grayscale(%)</p>
@@ -57,7 +57,7 @@ img {
         <p class="filter-item-title">saturate(%)</p>
         <p class="filter-item-dec">转换图像饱和度。值定义转换的比例。值为0%则是完全不饱和，值为100%则图像无变化。其他值，则是效果的线性乘子。超过100%的值是允许的，则有更高的饱和度。 若值未设置，值默认是1。</p>
         <img class="filter-item-img" :src="$withBase('/image/filter.jpg')" :style="{filter: `saturate(${value8}%)`}" />
-        <el-slider class="filter-item-slider" v-model="value8" show-input></el-slider>
+        <el-slider class="filter-item-slider" v-model="value8" show-input :max="300"></el-slider>
     </div>
     <div class="filter-item filter-item-even">
         <p class="filter-item-title">sepia(px)</p>

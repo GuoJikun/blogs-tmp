@@ -35,6 +35,7 @@ module.exports = {
                     ['/pages/css/cursor', 'Cursor'],
                     ['/pages/css/filter', 'Filter滤镜'],
                     ['/pages/css/loading', 'Loading'],
+                    ['/pages/css/function', 'css函数'],
 
                     ['/pages/css/other', '其它'],
                 ]
