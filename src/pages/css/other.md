@@ -75,6 +75,19 @@ p.not-select {
 }
 ```
 
+## 超出宽度显示...
+
+<p class="ellipsis">这里的文字超出宽度会显示省略号发士大夫撒发的</p>
+
+```css
+.ellipsis {
+    width: 253px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+```
+
 <div>
     <vue-gittalk></vue-gittalk>
 </div>
@@ -100,5 +113,10 @@ p.not-select {
         width: 500%;
     }
 }
-
+.ellipsis{
+    width: 253px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 </style>
