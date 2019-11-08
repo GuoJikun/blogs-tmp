@@ -1,11 +1,11 @@
-const plugins = require('./plugins.js')
-const webpackConfig = require('./webpack.config.js')
+const plugins = require('./config/plugins.js')
+const webpackConfig = require('./config/webpack.config.js')
 
 module.exports = {
     base: '/web-tricks/',
     title: 'web tricks',
     extraWatchFiles: [
-        './plugins.js', // 使用相对路径
+        './config/plugins.js', // 使用相对路径
     ],
     plugins: [
         ...plugins
@@ -36,6 +36,7 @@ module.exports = {
                     ['/pages/css/filter', 'Filter滤镜'],
                     ['/pages/css/loading', 'Loading'],
                     ['/pages/css/function', 'css函数'],
+                    ['/pages/css/radial-gradient', '径向渐变 radial-gradient'],
 
                     ['/pages/css/other', '其它'],
                 ]
@@ -54,6 +55,7 @@ module.exports = {
                     ['/pages/other/libs', '好用的库'],
                     ['/pages/other/article', '有用的文章'],
                     ['/pages/other/webgl', 'Webgl'],
+                    ['/pages/other/web-safe-color', 'web安全颜色'],
                 ]
             },
         ]
