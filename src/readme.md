@@ -14,9 +14,9 @@
 ## 快速开始
 
 ```
-* Clone the https://github.com/QiShaoXuan/css_tricks.git
-* Install package npm install
-* Development run npm run docs:dev
+* Clone the https://gitee.com/guojikun_admin/web-tricks.git
+* Install package yarn install
+* Development run yarn run dev
 * Open http://localhost:8080 in your browser.
 ```
 
