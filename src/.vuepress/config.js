@@ -14,7 +14,7 @@ module.exports = {
     ],
     themeConfig: {
         smoothScroll: true,
-        displayAllHeaders: true,
+        displayAllHeaders: false,
         nav: [
 
             { text: '码云(Gitee)', link: 'https://gitee.com/guojikun_admin/web-tricks.git' },
@@ -30,6 +30,7 @@ module.exports = {
             },
             {
                 title: 'CSS',
+                collapsable: false, // 可选的, 默认值是 true,
                 children: [
                     ['/pages/css/grid', 'Grid'],
                     ['/pages/css/cursor', 'Cursor'],
@@ -42,6 +43,7 @@ module.exports = {
             },
             {
                 title: 'JS',
+                collapsable: false, // 可选的, 默认值是 true,
                 children: [
                     ['/pages/js/bom', '浏览器对象 BOM'],
                     ['/pages/js/intersectionObserver', 'IntersectionObserver'],
@@ -53,7 +55,7 @@ module.exports = {
                 children: [
                     ['/pages/other/libs', '好用的库'],
                     ['/pages/other/article', '有用的文章'],
-                    ['/pages/other/webgl', 'Webgl'],
+                    ['/pages/other/md', 'md语法'],
                     ['/pages/other/web-safe-color', 'web安全颜色'],
                 ]
             },
