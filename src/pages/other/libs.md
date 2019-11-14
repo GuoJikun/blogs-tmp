@@ -38,6 +38,11 @@
                             {
                                 name: "Ant Design(vue)",
                                 url: "https://www.antdv.com/docs/vue/getting-started-cn/"
+                            },
+                            {
+                                name: "vant",
+                                dec: '轻量、可靠的移动端 Vue 组件库',
+                                url: "https://youzan.github.io/vant/#/zh-CN/intro"
                             }
                         ]
                     },
@@ -58,6 +63,21 @@
                                 name: "v-click-outside-x",
                                 dec: 'vue指令-在某元素外点击',
                                 url: "https://github.com/Xotic750/v-click-outside-x"
+                            },
+                            {
+                                name: "lodash",
+                                dec: 'Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库',
+                                url: "https://lodash.com/"
+                            }
+                        ]
+                    },
+                    {
+                        name: '单一组件',
+                        list: [
+                            {
+                                name: 'vue-virtual-scroller',
+                                dec: '虚拟滚动,大数据',
+                                url: 'https://github.com/Akryum/vue-virtual-scroller'
                             }
                         ]
                     }
