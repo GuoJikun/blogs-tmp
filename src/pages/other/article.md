@@ -22,6 +22,10 @@
                     {
                         name: "写给前端的Docker实战教程",
                         url: "https://zhuanlan.zhihu.com/p/83309276"
+                    },
+                    {
+                        name: '1024 献礼，10 个前端开发者必收的高赞资源',
+                        url: 'https://zhuanlan.zhihu.com/p/88101302'
                     }
                 ]
             };
