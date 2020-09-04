@@ -11,7 +11,7 @@ export default {
         return {
             clientId: "f510b99ce0977fa9d1b1",
             clientSecret: "7fe1d570c1346f8067bd48c819cd0b308b7f4469",
-            id: this.$route.name
+            id: this.$route.name,
         };
     },
     mounted() {
@@ -23,14 +23,14 @@ export default {
                 clientID: this.clientId, //Client ID
                 clientSecret: this.clientSecret, //Client Secret
                 repo: "web-tricks", //仓库名称
-                owner: "jikunguo", //仓库拥有者
-                admin: ["jikunguo"],
+                owner: "GuoJikun", //仓库拥有者
+                admin: ["jikunguo", "Jason"],
                 id: location.pathname, // Ensure uniqueness and length less than 50
-                distractionFreeMode: false // Facebook-like distraction free mode
+                distractionFreeMode: false, // Facebook-like distraction free mode
             });
             gitalk.render(this.id);
-        }
+        },
     },
-    computed: {}
+    computed: {},
 };
 </script>
