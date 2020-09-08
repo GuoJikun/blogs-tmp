@@ -68,6 +68,11 @@
                                 name: "lodash",
                                 dec: 'Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库',
                                 url: "https://lodash.com/"
+                            },
+                            {
+                                name: "decimal.js",
+                                dec: 'decimal.js 一个js计算库，可以不丢失精度',
+                                url: "http://mikemcl.github.io/decimal.js/"
                             }
                         ]
                     },
