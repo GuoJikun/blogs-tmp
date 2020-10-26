@@ -3,8 +3,8 @@ const sidebar = require("./config/sidebar.js");
 const webpackConfig = require("./config/webpack.config.js");
 
 module.exports = {
-    base: "/web-tricks/",
-    title: "web tricks",
+    base: "/",
+    title: "我的工作记录分享",
     extraWatchFiles: [
         "./config/plugins.js", // 使用相对路径
         "./config/sidebar.js", // 使用相对路径
