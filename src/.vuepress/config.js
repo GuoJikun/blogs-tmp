@@ -13,7 +13,11 @@ module.exports = {
     themeConfig: {
         smoothScroll: true,
         displayAllHeaders: false,
-        nav: [{ text: "码云(Gitee)", link: "https://gitee.com/guojikun_admin/web-tricks.git" }],
+        nav: [
+            { text: "WEB", link: "/web/" },
+            { text: "工具", link: "/tools/" },
+            { text: "码云(Gitee)", link: "https://gitee.com/guojikun_admin/web-tricks.git" },
+        ],
         sidebar: sidebar,
     },
     configureWebpack: webpackConfig,

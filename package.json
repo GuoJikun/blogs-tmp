@@ -1,34 +1,35 @@
 {
-  "name": "web-trick",
-  "version": "0.0.1",
-  "description": "all web",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npx vuepress dev src --no-cache",
-    "start": "npx vuepress dev src",
-    "build": "npx vuepress build src"
-  },
-  "keywords": [
-    "vuepress",
-    "web",
-    "webTrick",
-    "cssTrick"
-  ],
-  "author": "jikunguo",
-  "license": "MIT",
-  "dependencies": {
-    "element-ui": "^2.12.0",
-    "gitalk": "^1.5.0",
-    "vuepress": "^1.2.0",
-    "vuepress-plugin-container": "^2.1.0"
-  },
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/guojikun_admin/web-tricks.git"
-  }
+    "name": "web-trick",
+    "version": "0.0.1",
+    "description": "all web",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx vuepress dev src --no-cache",
+        "start": "npx vuepress dev src",
+        "build": "npx vuepress build src"
+    },
+    "keywords": [
+        "vuepress",
+        "web",
+        "webTrick",
+        "cssTrick"
+    ],
+    "author": "jikunguo",
+    "license": "MIT",
+    "dependencies": {
+        "core-js": "2.6.12",
+        "element-ui": "^2.12.0",
+        "gitalk": "^1.5.0"
+    },
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.8.2",
+        "node-sass": "^4.13.0",
+        "sass-loader": "^8.0.0",
+        "vuepress": "^1.8.2",
+        "vuepress-plugin-container": "^2.1.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/guojikun_admin/web-tricks.git"
+    }
 }
