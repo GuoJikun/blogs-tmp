@@ -1,5 +1,14 @@
-p{
+/** 重置默认元素的样式
+***************************************/
+body {
+    box-sizing: border-box;
+}
+body * {
+    box-sizing: inherit;
+}
+div,p,ul,ol{
     margin: 0;
+    display: block;
 }
 .h1{
     font-weight: 500;
@@ -16,7 +25,39 @@ p{
     margin: 0;
 }
 
+/** 重置vuepress默认主题的sidebar样式
+***************************************/
+.sidebar > ul.sidebar-links > li > a.sidebar-link {
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar > ul.sidebar-links > li > .sidebar-group > .sidebar-heading {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/** 自定义的class
+***************************************/
+
+.flex {
+    display: flex;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
 .flex-space-between{
     display: flex;
     justify-content: space-between;
 }
+.align-items-center {
+    align-items: center;
+}
+
+.margin-top-12px {
+    margin-top: 12px;
+}
+.margin-right-12px {
+    margin-right: 12px;
+}
+
