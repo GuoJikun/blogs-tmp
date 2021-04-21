@@ -41,4 +41,4 @@ jobs:
             - name: 部署文档到gh-pages
               env:
                   ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
-              run: cd src/.vuepress/dist && echo 'blogs.iceri.cn' > CNAME && git init && git add -A && git commit -m "deploy" && git push -f https://$ACCESS_TOKEN@github.com/guojikun/blogs.git main:gh-pages
+              run: cd src/.vuepress/dist && echo 'blogs.iceri.cn' > CNAME && git config --global init.defaultBranch main && git init && git add -A && git commit -m "deploy" && git push -f https://$ACCESS_TOKEN@github.com/guojikun/blogs.git main:gh-pages
