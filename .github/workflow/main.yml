@@ -31,7 +31,7 @@ jobs:
                   ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
                   BRANCH: gh-pages
                   FOLDER: src/.vuepress/dist
-              run: yarn run build:docs
+              run: yarn run build
             - name: 部署文档到gh-pages
               env:
                   ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
