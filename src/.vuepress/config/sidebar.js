@@ -27,7 +27,9 @@ module.exports = {
             title: "JS",
             collapsable: false, // 可选的, 默认值是 true,
             children: [
+                ["/web/js/es6", "ES6"],
                 ["/web/js/bom", "浏览器对象 BOM"],
+                ["/web/js/encode", "encodeURI和encodeURIComponent"],
                 ["/web/js/intersectionObserver", "IntersectionObserver"],
                 ["/web/js/cookie", "Cookie"],
             ],
@@ -45,5 +47,10 @@ module.exports = {
     "/tools/": [
         ["", "须知"],
         ["/tools/shadow", "阴影生成"],
+    ],
+    "/data-structure/": [
+        ["", "引导"],
+        ["stack", "栈 Stack"],
+        ["binary-search-tree", "二叉搜索树"],
     ],
 };
