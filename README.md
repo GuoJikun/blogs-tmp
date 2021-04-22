@@ -1,17 +1,17 @@
+# Blogs
+
 ## 关于
 
--   总结一些常用的 CSS 样式
--   记录一些 CSS 的新属性和一点奇技淫巧
--   在“动”部分下有些动画并不是 CSS 效果，因为没有地方放置，所以暂时寄存在这里
+- 总结一些常用的 CSS 样式
+- 记录一些 CSS 的新属性和一点奇技淫巧
 
-<b>尽量少说废话，代码简单易用，方便复制</b>
-::: tip
-talk is cheap show me the code
-:::
+**尽量少说废话，代码简单易用，方便复制**
+
+> talk is cheap show me the code
 
 ## 快速开始
 
-```
+```bash
 * Clone the https://gitee.com/guojikun_admin/web-tricks.git
 * Install package yarn install
 * Development run yarn run dev
@@ -20,7 +20,7 @@ talk is cheap show me the code
 
 ## Contributing
 
-```
+```bash
 * Fork this repository
 * Create your branch: git checkout -b new-branch
 * Make your changes

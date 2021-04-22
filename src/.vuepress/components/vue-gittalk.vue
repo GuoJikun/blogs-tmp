@@ -22,7 +22,7 @@ export default {
             const gitalk = new Gitalk({
                 clientID: this.clientId, //Client ID
                 clientSecret: this.clientSecret, //Client Secret
-                repo: "web-tricks", //仓库名称
+                repo: "blogs", //仓库名称
                 owner: "GuoJikun", //仓库拥有者
                 admin: ["GuoJikun"],
                 id: location.pathname, // Ensure uniqueness and length less than 50

@@ -64,10 +64,6 @@ p.var {
 | rgb()  | 使用红(R)、绿(G)、蓝(B)三个颜色的叠加来生成各式各样的颜色。    | 2        |
 | rgba() | 使用红(R)、绿(G)、蓝(B)、透明度(A)的叠加来生成各式各样的颜色。 | 3        |
 
-<div>
-    <vue-gittalk></vue-gittalk>
-</div>
-
 <style>
 :root{
     --font-color-red: red;

@@ -14,7 +14,7 @@
         "webTrick",
         "cssTrick"
     ],
-    "author": "jikunguo",
+    "author": "GuoJikun",
     "license": "MIT",
     "dependencies": {
         "core-js": "2.6.12",
@@ -30,6 +30,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://gitee.com/guojikun_admin/web-tricks.git"
+        "url": "https://github.com/guojikun_admin/web-tricks.git"
     }
 }

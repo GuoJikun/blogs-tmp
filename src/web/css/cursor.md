@@ -20,10 +20,6 @@
     </div>
 </template>
 
-<div>
-    <vue-gittalk></vue-gittalk>
-</div>
-
 <script>
     export default {
         data() {

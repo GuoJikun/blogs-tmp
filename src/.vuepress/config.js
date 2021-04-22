@@ -4,7 +4,7 @@ const webpackConfig = require("./config/webpack.config.js");
 
 module.exports = {
     base: "/",
-    title: "我的工作记录分享",
+    title: "我的博客",
     extraWatchFiles: [
         "./config/plugins.js", // 使用相对路径
         "./config/sidebar.js", // 使用相对路径

@@ -41,8 +41,6 @@
 
 </div>
 
-<vue-gittalk></vue-gittalk>
-
 </template>
 
 <script>

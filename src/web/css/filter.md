@@ -2,8 +2,9 @@
 
 ```css
 img {
-    filter: none | blur() | brightness() | contrast() | drop-shadow() |
-        grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia()
+    filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia(
+
+        )
         | url();
 }
 ```
@@ -65,10 +66,6 @@ img {
         <img class="filter-item-img" :src="$withBase('/image/filter.jpg')" :style="{filter: `sepia(${value9}%)`}" />
         <el-slider class="filter-item-slider" v-model="value9" show-input></el-slider>
     </div>
-</div>
-
-<div>
-    <vue-gittalk></vue-gittalk>
 </div>
 
 <script>
