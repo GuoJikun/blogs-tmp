@@ -18,8 +18,7 @@
     "license": "MIT",
     "dependencies": {
         "core-js": "2.6.12",
-        "element-ui": "^2.15.1",
-        "gitalk": "^1.7.2"
+        "element-ui": "^2.15.1"
     },
     "devDependencies": {
         "@vuepress/plugin-back-to-top": "^1.8.2",

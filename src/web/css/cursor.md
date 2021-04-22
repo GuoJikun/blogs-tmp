@@ -1,5 +1,10 @@
+# CSS Cursor属性
+
+:::tip 提示
+请把鼠标移到单词上查看鼠标的变化
+:::
+
 <template>
-    <p class="h1">请把鼠标移到单词上查看鼠标的变化</p>
     <div class="grid">
         <div
             class="grid-item"
@@ -132,22 +137,22 @@
                     {
                         name: "n-resize",
                         value: "n-resize",
-                        title: "	此光标指示矩形框的边缘可被向上（北）移动。"
+                        title: "此光标指示矩形框的边缘可被向上（北）移动。"
                     },
                     {
                         name: "e-resize",
                         value: "e-resize",
-                        title: "	此光标指示矩形框的边缘可被向右（东）移动。"
+                        title: "此光标指示矩形框的边缘可被向右（东）移动。"
                     },
                     {
                         name: "s-resize",
                         value: "s-resize",
-                        title: "	此光标指示矩形框的边缘可被向下移动（北/西）。"
+                        title: "此光标指示矩形框的边缘可被向下移动（北/西）。"
                     },
                     {
                         name: "w-resize",
                         value: "w-resize",
-                        title: "	此光标指示矩形框的边缘可被向左移动（西）。"
+                        title: "此光标指示矩形框的边缘可被向左移动（西）。"
                     },
                     {
                         name: "ne-resize",
@@ -216,12 +221,12 @@
 <style scoped>
     .grid {
         display: grid;
-        grid-template-columns: repeat(6, 100px);
-        grid-template-rows: repeat(6, 100px);
+        grid-template-columns: repeat(5, 100px);
+        grid-template-rows: repeat(7, 100px);
         justify-content: start;
         align-items: center;
         grid-auto-flow: row;
-        grid-gap: 10px 10px;
+        grid-gap: 30px 40px;
     }
     .grid-item {
         height: 100px;
@@ -231,7 +236,7 @@
         font-size: 1.2em;
         border: 1px solid #fff;
         box-sizing: border-box;
-        border-radius: 50%;
+        border-radius: 4px;
         border: 1px solid #eaeaea;
     }
 </style>
