@@ -6,8 +6,8 @@ module.exports = {
     base: "/",
     title: "我的博客",
     extraWatchFiles: [
-        "./config/plugins.js", // 使用相对路径
-        "./config/sidebar.js", // 使用相对路径
+        ".vuepress/config/plugins.js", // 使用相对路径
+        ".vuepress/config/sidebar.js", // 使用相对路径
     ],
     plugins: [...plugins],
     themeConfig: {

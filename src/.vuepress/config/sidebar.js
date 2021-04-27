@@ -51,7 +51,9 @@ module.exports = {
     ],
     "/data-structure/": [
         ["", "引导"],
-        ["stack", "栈 Stack"],
+        ["list", "List 列表"],
+        ["stack", "Stack 栈"],
+        ["queue", "Queue 队列"],
         ["binary-search-tree", "二叉搜索树"],
     ],
 };
