@@ -19,6 +19,7 @@ module.exports = {
                 ["/web/css/filter", "Filter滤镜"],
                 ["/web/css/loading", "Loading"],
                 ["/web/css/function", "css函数"],
+                ["/web/css/contain", "contain 属性"],
 
                 ["/web/css/other", "其它"],
             ],
