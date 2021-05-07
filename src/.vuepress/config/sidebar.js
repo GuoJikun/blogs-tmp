@@ -2,26 +2,21 @@ module.exports = {
     "/web/": [
         ["", "须知"],
         {
-            title: "HTML", // 必要的
+            title: "HTML & CSS", // 必要的
             collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 1, // 可选的, 默认值是 1
             children: [
-                ["/web/html/video", "Video"],
-                ["/web/html/canvas", "Canvas"],
-            ],
-        },
-        {
-            title: "CSS",
-            collapsable: false, // 可选的, 默认值是 true,
-            children: [
-                ["/web/css/grid", "Grid"],
-                ["/web/css/cursor", "Cursor"],
-                ["/web/css/filter", "Filter滤镜"],
-                ["/web/css/loading", "Loading"],
-                ["/web/css/function", "css函数"],
-                ["/web/css/contain", "contain 属性"],
+                ["/web/html-css/video", "Video"],
+                ["/web/html-css/canvas", "Canvas"],
+                ["/web/html-css/grid", "Grid"],
+                ["/web/html-css/cursor", "Cursor"],
+                ["/web/html-css/filter", "Filter 滤镜"],
+                ["/web/html-css/loading", "Loading"],
+                ["/web/html-css/function", "css 函数"],
+                ["/web/html-css/contain", "contain 属性"],
+                ["/web/html-css/scroll", "scroll 滚动条"],
 
-                ["/web/css/other", "其它"],
+                ["/web/html-css/other", "其它"],
             ],
         },
         {
